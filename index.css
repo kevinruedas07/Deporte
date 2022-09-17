@@ -1,0 +1,46 @@
+* {
+    transition: all 0.25s;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #12480afd;;
+    background-image: url(https://i.ibb.co/VDQRzzP/IMG-20220915-161127.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 120%;
+  }
+  
+  #encabezado {
+    width: 50vw;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #abe424fd;
+    border-radius: 15px;
+    margin: 15px 440px;
+    padding: 10px;
+  }
+  
+  .opcion {
+    text-align: center;
+    width: 30vw;
+    background: #2db718fd;
+    
+    border-radius: 15px;
+    margin: 15px 560px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .opcion:hover{
+       background: lightgray;
+  }
