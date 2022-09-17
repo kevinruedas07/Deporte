@@ -1,46 +1,53 @@
 * {
-    transition: all 0.25s;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #12480afd;;
-    background-image: url(https://i.ibb.co/VDQRzzP/IMG-20220915-161127.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    font-size: 120%;
-  }
-  
-  #encabezado {
-    width: 50vw;
-    min-height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: #abe424fd;
-    border-radius: 15px;
-    margin: 15px 440px;
-    padding: 10px;
-  }
-  
-  .opcion {
-    text-align: center;
-    width: 30vw;
-    background: #2db718fd;
-    
-    border-radius: 15px;
-    margin: 15px 560px;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .opcion:hover{
-       background: lightgray;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FFF;
+  background-image: url(https://i.ibb.co/VDQRzzP/IMG-20220915-161127.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+  font-size: 120%;
+}
+
+#encabezado {
+  width: 60vw;
+  border: 3px solid rgba(100, 100, 100, 0.1);
+  display: grid;
+  min-height: 20px;
+  justify-content: center;
+  background-image: linear-gradient(to left,#4ee158,#067711,#4ee158);
+  align-items: center;
+  flex-direction: column;
+  background-size: 300%;
+  text-decoration: none;
+  transition: 0.6s;
+  border-radius: 15px;
+  color: #FFF;
+  margin: 15px 440px;
+  padding: 10px;
+}
+
+.opcion {
+  text-align: center;
+  width: 40vw;
+  background-image: linear-gradient(to left,#6f0505,#cf39a5,#6f0505);
+  border-radius: 15px;
+  transition: 0.6s;
+  margin: 15px 580px;
+  background-size: 300%;
+  color: #FFF;
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.opcion:hover{
+     background-position: right;
+}
