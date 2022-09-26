@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #FFF;
+  background: rgb(0, 0, 0);
   background-image: url(https://i.ibb.co/VDQRzzP/IMG-20220915-161127.jpg);
   background-size: cover;
   background-position: center center;
@@ -13,7 +13,7 @@ body {
   align-items: center;
   background-size: cover;
   min-height: 100vh;
-  font-size: 120%;
+  font-size: 130%;
 }
 
 #encabezado {
@@ -22,14 +22,14 @@ body {
   display: grid;
   min-height: 20px;
   justify-content: center;
-  background-image: linear-gradient(to left,#4ee158,#067711,#4ee158);
+  background-image: linear-gradient(to left,#1f7914ee,#5fce54,#1f7914ee);
   align-items: center;
   flex-direction: column;
   background-size: 300%;
   text-decoration: none;
   transition: 0.6s;
   border-radius: 15px;
-  color: #FFF;
+  color: rgb(0, 0, 0);
   margin: 15px 440px;
   padding: 10px;
 }
@@ -37,12 +37,12 @@ body {
 .opcion {
   text-align: center;
   width: 40vw;
-  background-image: linear-gradient(to left,#6f0505,#cf39a5,#6f0505);
+  background-image: linear-gradient(to left,#5fce54,#1f7914ee,#5fce54);
   border-radius: 15px;
   transition: 0.6s;
   margin: 15px 580px;
   background-size: 300%;
-  color: #FFF;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 10px;
   cursor: pointer;
